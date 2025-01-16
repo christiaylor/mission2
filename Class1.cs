@@ -20,7 +20,7 @@ namespace mission1
                 int roll1 = rnd.Next(1, 7);
                 int roll2 = rnd.Next(1, 7);
                 int sum = roll1 + roll2;
-                rollSums[sum]++;
+                rollSums[sum]++; // Increment total
             }
             return rollSums;
         }
