@@ -29,6 +29,7 @@ internal class Program
             double pct = (double)rollSums[i] / sumTotal * 100;
             Console.Write($"{i}: {pct:F2}% ");
 
+            //Convert to stars
             int stars = (int)pct;
             Console.WriteLine(new string('*', stars));
         }

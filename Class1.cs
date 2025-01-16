@@ -8,7 +8,7 @@ namespace mission1
 {
     internal class Class1
     {
-
+        //Function to roll the dice and get the total
         public int[] rollDice(int numOfTimes)
         {
 
